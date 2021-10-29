@@ -9,6 +9,7 @@ elif rabatt_prozent == 1:
 
 rabatt = float(preis) * float(rabatt_prozent) / 100
 Endpreis = float(preis) - float(rabatt)
+
 print(f"Das ist der Startpreis: {preis}")
 print(f"Darauf gibt es {rabatt_prozent}%, dies sind {rabatt}€")
 print(f"Der Endpreis beträgt: {Endpreis}")
