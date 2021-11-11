@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Maklerprogramm", "Maklerprogramm\Maklerprogramm.pyproj", "{CB33FB51-B936-4CA7-8C18-862E1DEB7BF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB33FB51-B936-4CA7-8C18-862E1DEB7BF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB33FB51-B936-4CA7-8C18-862E1DEB7BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C71856E-52E1-4EB1-BDB9-84EA83EDF00F}
+	EndGlobalSection
+EndGlobal
