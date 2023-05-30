@@ -32,8 +32,11 @@ def bmi_W():
 gew = int(input("Bitte Geben Sie ihr Körpergewicht an: "))
 gr = float(input("Geben Sie hier Ihre Körpergröße an: "))
 bmi = gew / ((gr / 100)**2)
+gender = input("Sind Sie M oder W?")
 
-if input("Sind Sie M oder W?") == "M":
+if gender == "M":
     bmi_M()
-else:
+elif gender == "W":
     bmi_W()
+elif gender != "M" or "W":
+    print("Eingabe Ungültig! Geben Sie ein Geschlecht an!")
